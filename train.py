@@ -147,8 +147,6 @@ if __name__ == "__main__":
 
     wandb.finish()
 
-    # This goes at the very end of your training script
-
     print("Training finished. Saving model state...")
     torch.save(model.state_dict(), 'nanogpt_model.pth')
     print("Model saved to nanogpt_model.pth")
