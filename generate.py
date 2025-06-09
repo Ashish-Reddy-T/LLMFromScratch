@@ -28,5 +28,5 @@ if __name__ == "__main__":
 
     print("\n\n--- Generating new text ---")
     context = torch.tensor(encoder('\n'), dtype=torch.long, device=device).unsqueeze(0)
-    generated_tokens = m.generate(context, max_new_tokens=500)[0].tolist()
+    generated_tokens = m.generate(context, max_new_tokens=1000)[0].tolist()
     print(decoder(generated_tokens))
