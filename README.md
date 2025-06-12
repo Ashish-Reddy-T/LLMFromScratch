@@ -13,6 +13,6 @@
 You can run it from my deployed huggingface's [SPACE](https://huggingface.co/spaces/Ashish-R/LLMFromScratch) 💖
 
 - Be sure to include text formatted in Shakespeare's style.
-- Or you could just use a new line character and see what the GPT generates!
+- Or you could just use a new line character for a start and see what the GPT generates!
 
 ---
